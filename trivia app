@@ -1,0 +1,32 @@
+begin 
+puts "Welcome to the Greatest Trivia app!"
+puts "Hey, what's your name?"
+first_name = gets.chomp 
+puts "Thanks so much #{first_name}. 
+
+Do you know music? I have four questions for you if you get them right, you will get a cookie." 
+if Yes = gets.chomp 
+puts rand(4) 
+
+while 1 [do] puts "What year did Billy Joel release 
+ 'New York State of Mind?"
+if 1976 ?
+puts "Great!"
+elsif "Try again!" 
+	
+while 2 [do] puts "Who won American Idol Season one?"
+if Kelly Clarkson or kelly clarkson ?
+puts "Awesome!"
+elsif "Try again!"
+	
+while 3 [do] puts "What is Chaka Chan's real name?" 
+if Yvette Marie Stevens or Yvette Stevens or yvette stevens ?
+puts "Fantastic!"
+elsif "Try again!" 
+
+while 0 [do] puts "Who is the highest paid singer in the world?"
+if Madonna ?
+puts "Fantastic!"
+elsif "Try again!" 
+
+puts "Good Job! One cookie for you."
